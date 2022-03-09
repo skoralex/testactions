@@ -1,0 +1,21 @@
+name: PR_MAC
+
+on:
+
+    
+  pull_request:
+    branches: [ mac ]
+
+  workflow_dispatch:
+
+jobs:
+
+  PR_MAC:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PR_MAC
+        shell: bash
+        run: sleep 80
+
+          

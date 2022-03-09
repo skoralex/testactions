@@ -1,0 +1,21 @@
+name: PR_MASTER
+
+on:
+
+    
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+
+  PR_MASTER:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PR_MASTER
+        shell: bash
+        run: sleep 70
+
+          

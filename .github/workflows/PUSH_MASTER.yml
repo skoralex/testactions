@@ -1,0 +1,21 @@
+name: PUSH_MASTER
+
+on:
+
+    
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+
+  PUSH_MASTER:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PUSH_MASTER
+        shell: bash
+        run: sleep 80
+
+          

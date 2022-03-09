@@ -1,0 +1,21 @@
+name: PUSH_TESTING
+
+on:
+
+    
+  push:
+    branches: [ testing ]
+
+  workflow_dispatch:
+
+jobs:
+
+  PUSH_TESTING:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PUSH_TESTING
+        shell: bash
+        run: sleep 80
+
+          
