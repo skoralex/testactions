@@ -1,0 +1,21 @@
+name: PR_CUSTOM
+
+on:
+
+    
+  pull_request:
+    branches: [ custom ]
+
+  workflow_dispatch:
+
+jobs:
+
+  PR_CUSTOM:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PR_CUSTOM
+        shell: bash
+        run: sleep 80
+
+          
